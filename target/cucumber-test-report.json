@@ -1,0 +1,124 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5552765600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch Swag Labs url",
+            "match": {
+              "location": "Day19.StepDefs.StepDefinition.launch_swag_labs_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-06T05:49:14.303Z",
+        "line": 14,
+        "name": "Login functionality",
+        "description": "",
+        "id": "sauce-labs-page;login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 255630600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter \"UserName\" as \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UserName\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Day19.StepDefs.StepDefinition.enter_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164483300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter \"password\" as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Day19.StepDefs.StepDefinition.enter_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243963500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click \"login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login\"",
+                  "offset": 6
+                }
+              ],
+              "location": "Day19.StepDefs.StepDefinition.click_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13290600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Should see correct home Page url",
+            "match": {
+              "location": "Day19.StepDefs.StepDefinition.should_see()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SauceDemo"
+          }
+        ]
+      }
+    ],
+    "name": "Sauce Labs Page",
+    "description": "",
+    "id": "sauce-labs-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Day19/Features/SauceLabs.feature",
+    "tags": []
+  }
+]
